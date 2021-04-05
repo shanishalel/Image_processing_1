@@ -33,10 +33,8 @@ of the same matrix as one before
 * on_trackbar - function that do nothing
 * gammaDisplay - GUI for gamma correction (by tracking bar that is from 0 to 10) 
 
-
-
 ### Tests:
 I add 2 photos test1 and test2 that are my tests photos. 
 I write the code for my tests in the main and put it under comment so it will 
-not bother. I choose that the first one because she isn't black and white,
-and the second one I choose cause she has alot of colors. 
+not bother. test1 is picture of mona liza I choose it because I want to see if we can change the picture so we will get picture that is more sharpen that the 
+original paint . test2 is picture of lion that is created from alot of paint and I want to see how the quantizition of this picture will look like. 
