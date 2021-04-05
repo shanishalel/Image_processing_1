@@ -48,7 +48,8 @@ def quantDemo(img_path: str, rep: int):
 def main():
     print("ID:", myID())
     img_path = 'beach.jpg'
-    img_test='test1.jpg'
+    #img_test='test1.jpg'
+    #img_test='test2.jpg'
 
     # Basic read and display
     imDisplay(img_path, LOAD_GRAY_SCALE)
@@ -67,7 +68,6 @@ def main():
     yiq_img = transformRGB2YIQ(img)
     # tests
     #yiq_img2 = transformRGB2YIQ(img2)
-    #yiq_img3 = transformRGB2YIQ(img3)
 
     f, ax = plt.subplots(1, 2)
     ax[0].imshow(img)
@@ -80,11 +80,9 @@ def main():
     #ax[1].imshow(yiq_img2)
     #plt.show()
 
-
-
     # Image histEq
     histEqDemo(img_path, LOAD_GRAY_SCALE)
-    #histEqDemo(img_path, LOAD_RGB)
+    histEqDemo(img_path, LOAD_RGB)
 
     #tests
     #histEqDemo(img_test, LOAD_GRAY_SCALE)
@@ -96,7 +94,7 @@ def main():
     quantDemo(img_path, LOAD_RGB)
 
     #tests
-#    quantDemo(img_test, LOAD_GRAY_SCALE)
+    #quantDemo(img_test, LOAD_GRAY_SCALE)
     #quantDemo(img_test, LOAD_RGB)
 
     # Gamma

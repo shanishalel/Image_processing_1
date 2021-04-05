@@ -229,7 +229,7 @@ def init_bound(nQuant: int) -> np.ndarray:
 
 def finding_error(old: np.ndarray, new: np.ndarray) -> float:
     """
-    function that found the value of the error - from thr tirgul
+    function that found the value of the error - from the tirgul
     mse= sqrt(sum(imgold-imgnew)^2)/allpixels
     :param old:old img
     :param new:new img
